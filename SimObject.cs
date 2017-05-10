@@ -14,12 +14,9 @@ namespace Ei.Agents.Sims
             set { this.gameObject.name = value; }
         }
         public string Icon;
-
         public SimAction[] Actions;
-        public SeedInfo Seed;
 
         public SimObject() {
-            this.Seed = new SeedInfo();
             this.Actions = new SimAction[0];
         }
     }
